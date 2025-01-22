@@ -37,8 +37,6 @@ function load() {
 }
 
 function startGame() {
-    console.log("StartGame");
-
     lstSprites = [];
 
     sceneJeu.load(imageLoader);
@@ -50,7 +48,6 @@ function update(dt) {
     if (!gameReady) {
         return;
     }
-    // Suite quand le jeu est prêt
     sceneJeu.keyboard = keyboard;
     sceneJeu.update(dt);
 }
