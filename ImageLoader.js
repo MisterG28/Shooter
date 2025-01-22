@@ -39,9 +39,7 @@ class ImageLoader {
 
     imageLoaded(e) {
         this.loadedImageCount++;
-        console.log("Image chargée : ", e.target.currentSrc);
         if (this.loadedImageCount == this.lstPaths.length) {
-            console.log("Tout a été chargé !");
             this.callBack();
         }
     }

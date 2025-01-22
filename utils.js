@@ -1,4 +1,3 @@
-// https://www.w3schools.com/graphics/game_sound.asp
 function sound(src, vol = 1) {
     this.sound = document.createElement("audio");
     this.sound.src = src;
